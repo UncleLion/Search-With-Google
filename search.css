@@ -7,10 +7,12 @@ input {
     width: 400px;
     min-height: 40px;
     background: #202124;
+    color: #e8eaed;
     border: 1px solid #5f6368;
     box-shadow: none;
     border-radius: 24px;
-}
+    padding-left: 20px;
+    }
 button {
     background-color: #303134;
     border: 1px solid #303134;
@@ -19,7 +21,7 @@ button {
     font-family: arial, sans-serif;
     font-size: 14px;
     margin-top: 20px;
-    margin-left: 680px;
+    margin-left: 620px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -28,8 +30,14 @@ button {
     cursor: pointer;
     user-select: none;
 }
+
 button:hover {
     border: 1px solid #e8eaed; ;
+}
+
+.space-between {
+    display: inline-block;
+    margin-right: -540px;
 }
 
 p {
@@ -37,6 +45,6 @@ p {
     color: #e8eaed;
     font-size: 80px;
     margin-top: 150px;
-    margin-left: 640px;
+    margin-left: 650px;
     margin-bottom: 30px;
 }
